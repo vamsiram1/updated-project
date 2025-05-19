@@ -18,11 +18,11 @@ function EditField() {
           <div className="field-form-row">
             <div className="field-form-group small">
               <label>City ID</label>
-              <input type="text" value="01" />
+              <input type="text" placeholder="Enter Value" />
             </div>
             <div className="field-form-group small">
               <label>City Code</label>
-              <input type="text" value="01" />
+              <input type="text" placeholder="Enter Value" />
             </div>
             <div className="field-form-group big">
               <label>City Name</label>
@@ -33,11 +33,11 @@ function EditField() {
           <div className="field-form-row">
             <div className="field-form-group small">
               <label>Status</label>
-              <input type="text" value="01" />
+              <input type="text" placeholder="Enter Value" />
             </div>
             <div className="field-form-group small">
               <label>District ID</label>
-              <input type="text" value="01" />
+              <input type="text" placeholder="Enter Value" />
             </div>
             <div className="field-form-group big">
               <label>Zone ID</label>
@@ -52,11 +52,11 @@ function EditField() {
             </div>
             <div className="field-form-group small">
               <label>Sync Status</label>
-              <input type="text" value="01" />
+              <input type="text" placeholder="Enter Value" />
             </div>
             <div className="field-form-group small">
               <label>Sync Date</label>
-              <input type="text" value="01" />
+              <input type="text" placeholder="Enter Value" />
             </div>
           </div>
 

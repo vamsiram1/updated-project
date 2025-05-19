@@ -350,7 +350,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
+    height:auto;
     background: #f0f7ff;
     border-right: none;
     border-bottom: 1px solid #ddd;
@@ -375,7 +375,7 @@ body {
   .logo img {
     position:relative;
     width: 405px;
-    height: 95px;
+    height: 120px;
     margin-left:-43.75rem; 
     /* margin-left: 15px; */
     /* left:0;
@@ -392,6 +392,7 @@ body {
     position:absolute;
     right:0;
     top:0;
+    margin-top:25px;
   }
 
   .sidebar-content {
@@ -479,8 +480,8 @@ body {
   }
 
   .navbar {
-    margin-top: 18vh; 
-    height: 17vh;
+    margin-top: 21vh; 
+    height: 19vh;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -490,7 +491,6 @@ body {
     justify-content: space-between;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid #eee;
-   
     top: 0;
     z-index: 2;
   }
@@ -506,14 +506,14 @@ body {
     
     color: #999;
     margin-right: 8px;
-    font-size:35px;
+    font-size:50px;
       
   }
 
   .navbar .left input {
 
    
-    font-size: 30px;
+    font-size: 50px;
     margin-left: 10px;
   }
 
@@ -525,8 +525,8 @@ body {
 
   .svg-sz-sm-sc {
     height: 80px;
-    width: 40px;
-    margin-left: 40px;
+    width: 55px;
+    margin-left: 28px;
     margin-top: 5px;
   }
 

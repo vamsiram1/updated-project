@@ -276,6 +276,8 @@
 
   @media (min-width:360px) and (max-width:787px) {
 
+  
+
     .dashboard-container{
       margin-left:0;
       margin-top:33.5vh;
@@ -305,18 +307,18 @@
   .header {
     display: flex;
     align-items: center;
-   
+   margin-top:10px;
     /* margin-bottom:20px; */
     border-bottom: 1px solid rgb(199, 194, 194);
     background-color:white;
     }
     
     .header h1 {
-      font-size: 48px;
+      font-size: 60px;
       font-weight: bold;
-      margin-top:20px;
+      margin-top:35px;
       margin-bottom:20px;
-      margin-left:25px;
+      margin-left:35px;
     }
   
     .header-below-line{
@@ -330,7 +332,7 @@
     left: 0;
     width: 100%;
     background-color: white;
-    padding: 12px 10px;
+    padding: 12px ;
     box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
     z-index: 10;
     display: flex;
@@ -342,8 +344,8 @@
     }
 
     .buttons button{
-      height:70px;
-      width:200px;
+      height:90px;
+      width:300px;
     }
     
     button {
@@ -360,27 +362,28 @@
       border-radius:10px;
       /* height:10px; */
 
-      font-size: 30px;
+      font-size: 35px;
     }
     
     .filter .notification {
-      background-color: red;
+      /* background-color: red;
       color: white;
       border-radius: 50%;
-      padding: 2px 2px;
+      padding: 20px 20px ;
       position: absolute;
-      top: -5px;
+      top: 0-10pxpx;
       right: -5px;
       height:12px;
-      width:12px;
-      font-size:10px;
+      width:15px;
+      font-size:30px; */
+      display:none;
     }
     
     .export {
       background-color: white;
       border: 1px solid #ccc;
       border-radius:10px;
-      font-size: 30px;
+      font-size: 35px;
     }
     
     .add-new-field {
@@ -388,7 +391,7 @@
       color: white;
       border-radius: 5px;
       border-radius:10px;
-      font-size: 23px;
+      font-size: 35px;
       
     }
   
@@ -413,6 +416,7 @@
       width: 1120px;
       background-color: white;
       margin-bottom: 2px;
+      margin-left:23px;
       /* margin-left: 40px; */
       /* margin-top:60px; */
       
@@ -422,26 +426,62 @@
     
     .city-table {
       /* overflow-y: scroll; */
-      min-width: 693px;
+      min-width: 360px;
       width: 100%;
       border-collapse: collapse;
-      margin-left:25px;
-      margin-top:120px;
-      height:auto;
+      /* margin-left:25px; */
+      margin-top:165px;
+      height:485px;
+
+      
   
     }
     
-    .city-table th, .city-table td {
-      padding: 10px;
-      text-align: left;
-      white-space: nowrap;
-      background-color: white;
-      border-bottom: 1px solid #ddd;
-      font-size:32px;
-      color:#22252c;
-      height:40px;
-      /* margin-left:500px; */
-    }
+    .city-table th,
+  .city-table td {
+    padding-left: 10px;
+    padding-right: 80px;
+    padding-bottom:20px;
+    text-align: left;
+    white-space: nowrap;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    font-size: 40px;
+    color: #22252c;
+    height: 32px; /* Fixed height for every cell */
+    box-sizing: border-box; /* Include padding in the dimensions */
+    overflow: hidden; /* Clip content that exceeds the cell */
+    text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+    /* border: 1px solid red;  */
+    width:32px;
+  }
+
+
+.city-table td {
+  color:#252C32;
+}
+
+  /* Set specific column widths to match your requirement */
+  .city-table th:nth-child(1),
+  .city-table td:nth-child(1) {
+    width: 117px; /* Checkbox column */
+    padding-right:15px;
+  }
+
+  .city-table th:nth-child(2),
+  .city-table td:nth-child(2) {
+    width: 117px; /* STATE_ID column */
+  }
+
+  .city-table th:nth-child(3),
+  .city-table td:nth-child(3) {
+    width: 117px; /* STATE_NAME column */
+  }
+
+  .city-table th:nth-child(4),
+  .city-table td:nth-child(4) {
+    width: 117px; /* COUNTRY_ID column */
+  }
   
     .view-container{
       font-style: normal;
@@ -457,8 +497,8 @@
     
     .checkbox {
       appearance: none;
-      width: 20px;
-      height: 20px;
+      width: 30px;
+      height: 30px;
       background-color: #F6F8F9;
       border: 2px solid #ccc;
       border-radius: 4px;
@@ -535,7 +575,7 @@
       /* border-radius: 10px; */
       /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
       margin-left: 40px;
-      height:42px;
+      height:50px;
       
       
     }
@@ -548,7 +588,7 @@
       color: #3a3d41;
       font-weight: 500;
       cursor: pointer;
-      font-size: 25px;;
+      font-size: 33px;;
      
     }
     

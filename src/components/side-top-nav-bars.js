@@ -1,9 +1,10 @@
-import { useState } from 'react';
+import { useState} from 'react';
 import chaitanyaLogo from '../assets/srichaitanya-png.png';
 import { Link, useLocation } from 'react-router-dom';
 
 
-function SideBar() {
+function SideBar({ hideNavbarOnSmallScreens = false }) {
+
 
     const [isDropDowVisible, setIsDropDownVisble] = useState(false);
     const toggleDropdown = () => {
@@ -32,7 +33,7 @@ function SideBar() {
                 {/* <!-- Side Bar  --> */}
 
                 <div className="sidebar">
-                    <div className="logo-and-hamburger">
+                    {/* <div className="logo-and-hamburger"> */}
 
                         <div className="logo">
 
@@ -43,7 +44,7 @@ function SideBar() {
                         {isSidebarVisible ? '✕' : '☰'}
                         </div>
                         {/* onClick={toggleSidebar} */}
-                    </div>
+                    {/* </div> */}
 
                     
                     <div className={`menu-footer-container ${isSidebarVisible ? 'visible' : 'hidden'}`}>

@@ -19,11 +19,11 @@ function NewField(){
             <div class="form-row">
                 <div class="form-group small">
                 <label>City ID</label>
-                <input type="text" value="01"/>
+                <input type="text" placeholder="Enter Value"/>
                 </div>
                 <div class="form-group small">
                 <label>City Code</label>
-                <input type="text" value="01"/>
+                <input type="text" placeholder="Enter Value"/>
                 </div>
                 <div class="form-group big">
                 <label>City Name</label>
@@ -34,11 +34,11 @@ function NewField(){
             <div className="form-row">
                 <div className="form-group small">
                 <label>Status</label>
-                <input type="text" value="01"/>
+                <input type="text" placeholder="Enter Value" />
                 </div>
                 <div className="form-group small">
                 <label>District ID</label>
-                <input type="text" value="01"/>
+                <input type="text" placeholder="Enter Value"/>
                 </div>
                 <div className="form-group big">
                 <label>Zone ID</label>
@@ -53,11 +53,11 @@ function NewField(){
                 </div>
                 <div className="form-group small">
                 <label>Sync Status</label>
-                <input type="text" value="01"/>
+                <input type="text" placeholder="Enter Value"/>
                 </div>
                 <div className="form-group small">
                 <label>Sync Date</label>
-                <input type="text" value="01"/>
+                <input type="text" placeholder="Enter Value"/>
                 </div>
             </div>
 
